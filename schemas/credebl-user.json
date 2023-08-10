@@ -1,21 +1,21 @@
 {
-    "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "name": "http://schema.org/name",
-        "CredeblUser": {
-            "@id": "https://dev.nborbit.net/credebluser.jsonld#CredeblUser",
-            "@context": {
-                "@version": 1.1,
-                "@protected": true,
-                "id": "@id",
-                "type": "@type",
+	"@context": {
+		"@version": 1.1,
+		"@protected": true,
+		"name": "http://schema.org/name",
+		"CredeblUser": {
+			"@id": "https://dev.nborbit.net/credebluser.jsonld#CredeblUser",
+			"@context": {
+				"@version": 1.1,
+				"@protected": true,
+				"id": "@id",
+				"type": "@type",
 
-                "ext": "http://example.org/jsonld#",
+				"ext": "http://example.org/jsonld#",
 
-                "givenName": "ext:givenName",
-                "familyName": "ext:familyName"
-            }
-        }
-    }
+				"givenName": "ext:givenName",
+				"familyName": "ext:familyName"
+			}
+		}
+	}
 }
