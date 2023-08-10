@@ -4,7 +4,7 @@
 		"@protected": true,
 		"name": "http://schema.org/name",
 		"CredeblUser": {
-			"@id": "https://dev.nborbit.net/credebluser.jsonld#CredeblUser",
+			"@id": "'https://raw.githubusercontent.com/sairanjitAW/schemas/main/schema.json",
 			"@context": {
 				"@version": 1.1,
 				"@protected": true,
